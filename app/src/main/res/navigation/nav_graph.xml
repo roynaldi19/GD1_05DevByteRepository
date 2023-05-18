@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/devByte"
-        android:name="com.roynaldi19.android.devbyteviewer.ui.DevByteFragment"
+        android:name="com.roynaldi19.gd1_05devbyterepository.ui.DevByteFragment"
         android:label="fragment_dev_byte"
         tools:layout="@layout/fragment_dev_byte" />
 </navigation>

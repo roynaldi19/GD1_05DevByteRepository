@@ -1,4 +1,4 @@
-package com.roynaldi19.android.devbyteviewer.util
+package com.roynaldi19.gd1_05devbyterepository.util
 
 private val PUNCTUATION = listOf(", ", "; ", ": ", " ")
 

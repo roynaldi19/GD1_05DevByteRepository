@@ -1,4 +1,4 @@
-package com.roynaldi19.android.devbyteviewer.database
+package com.roynaldi19.gd1_05devbyterepository.database
 
 import android.content.Context
 import androidx.lifecycle.LiveData

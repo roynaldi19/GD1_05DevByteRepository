@@ -1,7 +1,7 @@
-package com.roynaldi19.android.devbyteviewer.network
+package com.roynaldi19.gd1_05devbyterepository.network
 
-import com.roynaldi19.android.devbyteviewer.database.DatabaseVideo
-import com.roynaldi19.android.devbyteviewer.domain.DevByteVideo
+import com.roynaldi19.gd1_05devbyterepository.database.DatabaseVideo
+import com.roynaldi19.gd1_05devbyterepository.domain.DevByteVideo
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)

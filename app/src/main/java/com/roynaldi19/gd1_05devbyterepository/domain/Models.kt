@@ -1,6 +1,6 @@
-package com.roynaldi19.android.devbyteviewer.domain
+package com.roynaldi19.gd1_05devbyterepository.domain
 
-import com.roynaldi19.android.devbyteviewer.util.smartTruncate
+import com.roynaldi19.gd1_05devbyterepository.util.smartTruncate
 
 data class DevByteVideo(val title: String,
                         val description: String,

@@ -1,4 +1,4 @@
-package com.roynaldi19.android.devbyteviewer.ui
+package com.roynaldi19.gd1_05devbyterepository.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -14,12 +14,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.roynaldi19.android.devbyteviewer.R
-import com.roynaldi19.android.devbyteviewer.databinding.DevbyteItemBinding
-import com.roynaldi19.android.devbyteviewer.databinding.FragmentDevByteBinding
-import com.roynaldi19.android.devbyteviewer.domain.DevByteVideo
-import com.roynaldi19.android.devbyteviewer.viewmodels.DevByteViewModel
-
+import com.roynaldi19.gd1_05devbyterepository.R
+import com.roynaldi19.gd1_05devbyterepository.databinding.DevbyteItemBinding
+import com.roynaldi19.gd1_05devbyterepository.databinding.FragmentDevByteBinding
+import com.roynaldi19.gd1_05devbyterepository.domain.DevByteVideo
+import com.roynaldi19.gd1_05devbyterepository.viewmodels.DevByteViewModel
 
 class DevByteFragment : Fragment() {
 
@@ -30,7 +29,6 @@ class DevByteFragment : Fragment() {
         ViewModelProvider(this, DevByteViewModel.Factory(activity.application))
                 .get(DevByteViewModel::class.java)
     }
-
 
     private var viewModelAdapter: DevByteAdapter? = null
 
@@ -73,7 +71,6 @@ class DevByteFragment : Fragment() {
             adapter = viewModelAdapter
         }
 
-
         viewModel.eventNetworkError.observe(viewLifecycleOwner, Observer<Boolean> { isNetworkError ->
             if (isNetworkError) onNetworkError()
         })
@@ -99,7 +96,6 @@ class VideoClick(val block: (DevByteVideo) -> Unit) {
 
     fun onClick(video: DevByteVideo) = block(video)
 }
-
 
 class DevByteAdapter(val callback: VideoClick) : RecyclerView.Adapter<DevByteViewHolder>() {
 

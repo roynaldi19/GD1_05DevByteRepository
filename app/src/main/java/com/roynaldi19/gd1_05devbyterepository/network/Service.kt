@@ -1,4 +1,4 @@
-package com.roynaldi19.android.devbyteviewer.network
+package com.roynaldi19.gd1_05devbyterepository.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
@@ -10,8 +10,6 @@ interface DevbyteService {
 }
 
 object DevByteNetwork {
-
-    // Configure retrofit to parse JSON and use coroutines
     private val retrofit = Retrofit.Builder()
             .baseUrl("https://android-kotlin-fun-mars-server.appspot.com/")
             .addConverterFactory(MoshiConverterFactory.create())

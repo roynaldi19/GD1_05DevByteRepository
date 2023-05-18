@@ -1,9 +1,8 @@
-package com.roynaldi19.android.devbyteviewer.ui
+package com.roynaldi19.gd1_05devbyterepository.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.roynaldi19.android.devbyteviewer.R
-
+import com.roynaldi19.gd1_05devbyterepository.R
 
 class DevByteActivity : AppCompatActivity() {
 

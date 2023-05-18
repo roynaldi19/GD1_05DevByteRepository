@@ -1,9 +1,8 @@
-
-package com.roynaldi19.android.devbyteviewer.database
+package com.roynaldi19.gd1_05devbyterepository.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.roynaldi19.android.devbyteviewer.domain.DevByteVideo
+import com.roynaldi19.gd1_05devbyterepository.domain.DevByteVideo
 
 @Entity
 data class DatabaseVideo constructor(

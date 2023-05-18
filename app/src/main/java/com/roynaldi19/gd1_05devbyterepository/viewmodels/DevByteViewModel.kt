@@ -1,4 +1,4 @@
-package com.roynaldi19.android.devbyteviewer.viewmodels
+package com.roynaldi19.gd1_05devbyterepository.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -7,9 +7,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.roynaldi19.android.devbyteviewer.domain.DevByteVideo
-import com.roynaldi19.android.devbyteviewer.network.DevByteNetwork
-import com.roynaldi19.android.devbyteviewer.network.asDomainModel
+import com.roynaldi19.gd1_05devbyterepository.domain.DevByteVideo
+import com.roynaldi19.gd1_05devbyterepository.network.DevByteNetwork
+import com.roynaldi19.gd1_05devbyterepository.network.asDomainModel
 import kotlinx.coroutines.*
 import java.io.IOException
 

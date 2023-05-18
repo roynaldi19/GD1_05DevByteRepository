@@ -17,12 +17,12 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.roynaldi19.android.devbyteviewer">
+    package="com.roynaldi19.gd1_05devbyterepository">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.roynaldi19.android.devbyteviewer.DevByteApplication"
+        android:name="com.roynaldi19.gd1_05devbyterepository.DevByteApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -30,7 +30,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.roynaldi19.android.devbyteviewer.ui.DevByteActivity"
+        <activity android:name="com.roynaldi19.gd1_05devbyterepository.ui.DevByteActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
